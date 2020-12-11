@@ -17,9 +17,9 @@ Python 3.7
 * requirements.txt: package list needed to be installed
   (We didn't use the package gendataset:we've defined our own dataset.)
 
-2.Our implementation
+2.Our file and implemetation codes
 * twsi_train.csv, twsi_test.csv: dataset created from twsi[3]
-* glove.6B.300d.txt[4] :Word embedding file
+* glove.6B.300d.txt[4] :Word embedding file, too big to upload, you can download it from http://nlp.stanford.edu/data/glove.6B.zip
 * grinchcluster.ipynb : codes for online clustering, including processing dataset input, output for evaluation, falting the clusters and clustering visualization.
 * offline_cluster.py: code for offline clustering using HAC
 * Evaluation.py: code for evaluation
