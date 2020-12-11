@@ -1,10 +1,12 @@
 # WSI_GrinchClustering
 ----CSCI 5454 Algorithm Project
-## Team member: Ananya Ganesh, Xuan Gao, Changbing Yang
-## Environment: Python 3.7
-## Introduction
+### Team member: 
+Ananya Ganesh, Xuan Gao, Changbing Yang
+### Environment: 
+Python 3.7
+### Introduction
  In this project, we adopt an online algorithm, which presents an incremental algorithm for hierarchical clustering called GRINCH[1] to perform on WSI. We understand this algorithm by evaluating its performance on TWSI benchmark and further make a comparison with offline algorithms.For the implementation of Grinch, we use the code from github[2].We implement the code of processing the input, output and evaluation. The details are listed in the next.
-## Structure of this project 
+### Structure of this project 
 1.packages from the github code[2]
 * clustering: the clustering algorithm (i.e. Grinch, Rotation, Online) and the function to calculate dendrogram purity.
 * dendrogram: the definition of dendrogram tree.
@@ -24,7 +26,7 @@
 * output folder: output txt files for online and offline algorithm. It also includes some graphs for grinch algorithm.
 
  
-## Citation:
+### Citation:
 [1]Nicholas Monath et al. “Scalable Hierarchical Clustering with Tree Grafting”. In:Proceedings of the 25th ACMSIGKDD International Conference on Knowledge Discovery & Data Mining. 2019, pp. 1438–1448.  
 [2]Implementation of Grinch, https://github.com/Troublor/grinch  
 [3]C. Biemann and V. Nygaard (2010): Crowdsourcing WordNet. In Proceedings of the 5th Global WordNet conference, Mumbai, India. , ACL Data and Code Repository, ADCR2010T006, http://aclweb.org/aclwiki.  
